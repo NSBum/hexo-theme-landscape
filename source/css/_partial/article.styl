@@ -40,8 +40,10 @@
 
 .article-entry
   @extend $base-style
+  font-family: font-serif
   clearfix()
   color: color-default
+  font-size: 1.1em
   padding: 0 article-padding
   p, table
     line-height: line-height
@@ -78,10 +80,14 @@
     border-bottom: 1px solid color-border
     padding: 10px 0
   blockquote
+    border-left: 10px solid #ccc
+    margin: 1.5em 10px
+    padding: 0.5em 10px
     font-family: font-serif
-    font-size: 1.4em
+    font-size: 1.0em
+    font-style: italic
     margin: line-height 20px
-    text-align: center
+    text-align: left
     footer
       font-size: font-size
       margin: line-height 0
@@ -301,14 +307,6 @@ $article-share-link
   &:hover
     background: color-google
     text-shadow: 0 1px darken(color-google, 20%)
-
-.article-share-linkedin
-  @extend $article-share-link
-  &:before
-    content: "\f0e1"
-  &:hover
-    background: color-linkedin
-    text-shadow: 0 1px darken(color-linkedin, 20%)
 
 .article-gallery
   background: #000
