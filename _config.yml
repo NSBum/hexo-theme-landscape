@@ -13,12 +13,13 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
+- links
 - category
 #- tag
 - tagcloud
 - archive
 - recent_posts
-- links
+
 
 # Miscellaneous
 google_analytics:
@@ -29,11 +30,11 @@ fb_admins:
 fb_app_id:
 
 links:
+- title: "Family photos"
+  url: http://www.culpabledistraint.net/photos
+  intro: "Curated family photos"
+  icon: "fa fa-external-link"
 - title: "Curated links"
   url: /links
   intro: "My curated links"
   icon: "fa fa-link"
-- title: "Hexo"
-  url: http://hexo.io
-  intro: "My Linkin account."
-  icon: "fa fa-share"
