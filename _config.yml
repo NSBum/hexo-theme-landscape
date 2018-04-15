@@ -38,3 +38,7 @@ links:
   url: /links
   intro: "My curated links"
   icon: "fa fa-link"
+- title: "News river (River5)"
+  url: http://54.167.172.54:1337/
+  intro: My River5 rivers
+  icon: "fa fa-external-link"
